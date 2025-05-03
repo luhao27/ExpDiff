@@ -1,6 +1,6 @@
 # ExpDiff
 ## :rocket:A Feature-aligned Diffusion Model for Controllable Generation of 3D Drug-like Molecules
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)[![PyTorch](https://img.shields.io/badge/PyTorch-1.11%2B-red)](https://pytorch.org/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/) [![PyTorch](https://img.shields.io/badge/PyTorch-1.11%2B-red)](https://pytorch.org/)
 
 
 ## 1. Overview
@@ -110,7 +110,7 @@ python scripts/train_diffusion.py
 
 
 
-## 4. Citation
+## 5. Citation
 
   
 
