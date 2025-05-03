@@ -1,0 +1,86 @@
+2025-04-22 14:15:48,270 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.2: biomolecular structure conversion software.
+2025-04-22 14:15:48,270 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2025-04-22 14:15:48,270 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2025-04-22 14:15:48,270 INFO:main.py:768:main_driver:Checking and transforming input arguments.
+2025-04-22 14:15:48,625 INFO:main.py:772:main_driver:Loading topology files.
+2025-04-22 14:15:48,881 INFO:main.py:774:main_driver:Loading molecule: ./data/other_pdb/5liu_X_rec_pocket10.pdb
+2025-04-22 14:15:48,882 INFO:main.py:779:main_driver:Setting up molecule.
+2025-04-22 14:15:48,883 INFO:main.py:417:setup_molecule:Created biomolecule object with 45 residues and 371 atoms.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD1 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD2 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE1 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CE2 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CE3 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ2 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CZ3 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CH2 in TRP X 112.
+2025-04-22 14:15:48,883 WARNING:main.py:433:setup_molecule:Multiple occupancies found in TRP X 112. At least one of the instances is being ignored.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: N in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: C in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: O in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OD1 in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: ND2 in ASN X 300.
+2025-04-22 14:15:48,884 WARNING:main.py:433:setup_molecule:Multiple occupancies found in ASN X 300. At least one of the instances is being ignored.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CA in GLN X 114.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CB in GLN X 114.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CG in GLN X 114.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: CD in GLN X 114.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: OE1 in GLN X 114.
+2025-04-22 14:15:48,884 WARNING:main.py:427:setup_molecule:Multiple occupancies found: NE2 in GLN X 114.
+2025-04-22 14:15:48,884 WARNING:main.py:433:setup_molecule:Multiple occupancies found in GLN X 114. At least one of the instances is being ignored.
+2025-04-22 14:15:48,884 INFO:main.py:783:main_driver:Setting termini states for biomolecule chains.
+2025-04-22 14:15:48,884 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between LYS X 22 and VAL X 48!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between TYR X 49 and TRP X 80!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between TRP X 80 and HIS X 111!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between TRP X 112 and LEU X 122!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between PHE X 123 and PRO X 219!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between TRP X 220 and CYS X 299!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between CYS X 299 and LEU X 301!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between LEU X 301 and GLN X 303!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between GLN X 303 and ALA X 46!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ALA X 46 and LYS X 78!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between LYS X 78 and PRO X 81!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between PRO X 81 and SER X 160!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN X 161 and GLN X 184!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between GLU X 186 and TYR X 210!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between TYR X 210 and GLY X 19!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR X 20 and ASP X 44!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between CYS X 45 and SER X 211!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between SER X 211 and PRO X 124!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ARG X 125 and GLY X 129!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between GLY X 129 and ALA X 131!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ALA X 131 and ASN X 300!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN X 300 and LEU X 302!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between LEU X 302 and SER X 304!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between SER X 304 and ASN X 130!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASN X 130 and PHE X 116!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between PHE X 116 and GLN X 114!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between GLN X 114 and ASP X 121!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASP X 121 and ASP X 126!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ASP X 126 and ILE X 132!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between ILE X 132 and THR X 82!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between THR X 82 and GLY X 115!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between GLY X 115 and LYS X 117!
+2025-04-22 14:15:48,885 WARNING:biomolecule.py:615:update_bonds:Gap in backbone detected between LYS X 117 and GLY X 133!
+2025-04-22 14:15:48,886 INFO:main.py:613:non_trivial:Loading forcefield.
+2025-04-22 14:15:48,948 INFO:main.py:617:non_trivial:Loading hydrogen topology definitions.
+2025-04-22 14:15:48,949 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLY X 133
+2025-04-22 14:15:48,949 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLY X 133
+2025-04-22 14:15:48,949 INFO:main.py:627:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2025-04-22 14:15:48,950 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue GLY X 133
+2025-04-22 14:15:48,950 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue GLY X 133 at coordinates -32.904, 31.649, 4.960
+2025-04-22 14:15:48,950 INFO:main.py:632:non_trivial:Updating disulfide bridges.
+2025-04-22 14:15:48,950 INFO:main.py:635:non_trivial:Debumping biomolecule.
+2025-04-22 14:15:48,959 INFO:main.py:658:non_trivial:Adding hydrogens to biomolecule.
+2025-04-22 14:15:48,985 INFO:main.py:661:non_trivial:Debumping biomolecule (again).
+2025-04-22 14:15:49,089 INFO:main.py:663:non_trivial:Optimizing hydrogen bonds
+2025-04-22 14:15:49,139 INFO:main.py:675:non_trivial:Applying force field to biomolecule states.
+2025-04-22 14:15:49,139 INFO:main.py:722:non_trivial:Regenerating headers.
+2025-04-22 14:15:49,139 INFO:main.py:747:non_trivial:Regenerating PDB lines.
+2025-04-22 14:15:49,142 WARNING:main.py:320:print_pqr:Ignoring 390 header lines in output.
