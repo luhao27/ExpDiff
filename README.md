@@ -6,6 +6,7 @@
 ## 1. Overview
 This work focuses on *de novo* structure-based drug design and introduces an expert alignment strategy to address noise-induced instability in diffusion models. We propose a diffusion model called **ExpDiff**, and the experiments proved that the average molecular docking affinity of generated molecules reaches **-10.06 kcal/mol**, and showed drug like properties, as well as the rationality of the structure.
 
+![results](img/main.jpg)
 
 ### Dependency:
 Follow the below steps for main dependency installation:
